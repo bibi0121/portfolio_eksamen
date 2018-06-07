@@ -157,6 +157,10 @@ h3 {
     font-weight: 600;
 }
 
+p {
+    padding: 50px;
+}
+
 .colum_stilart {
     margin: 20px;
     padding: 10px;
