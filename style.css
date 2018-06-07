@@ -9,12 +9,11 @@ body {
     margin: 11px auto 0 auto;
     max-width: 1080px;
 
-/*
+    /*
     border: 0.5px solid rgba(0, 0, 0, 0.02);
     box-shadow: 5px 10px rgba(0, 0, 0, 0.11);
     padding: 10px;
 */
-
 }
 
 .topNav {
@@ -149,8 +148,11 @@ h2 {
     font-size: 1em;
 
     font-weight: bold;
+}
 
-
+h3 {
+    text-align: center;
+    font-weight: 600;
 }
 
 .colum_stilart {
@@ -228,3 +230,22 @@ img {
 
 }
 
+.video_projekt img {
+    width: 60%;
+    height: 100%;
+    margin-left: 20vw
+}
+
+.gramkaffe img {
+    width: 60%;
+    height: 100%;
+    margin-left: 20vw
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+
+
+}
