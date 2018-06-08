@@ -13,7 +13,7 @@ body {
 
     border: 0.5px solid rgba(0, 0, 0, 0.16);
     box-shadow: 5px 10px rgba(0, 0, 0, 0.19);
-    padding: 10px;
+    padding: 30px;
     background-color: #f2eded;
 
 }
@@ -21,93 +21,35 @@ body {
 
 /* Start Menu baren*/
 
-/*
-.topNav {
-    overflow: hidden;
-    background-color: #e39393;
-}
-
-.topNav a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 16px 21px;
+a {
+    cursor: pointer;
     text-decoration: none;
-    font-size: 15px;
     color: white;
 }
-*/
-
-.topNav a:hover {
-    background-color: #ff9494;
-    color: black;
-}
-
-.topNav .icon {
-    display: none;
-}
-
-@media screen and (max-width: 600px) {
-    .topNav a:not(:first-child),
-    .dropdown .dropbtn {
-        display: none;
-    }
-    .topNav a.icon {
-        float: right;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .topNav.responsive {
-        position: relative;
-    }
-    .topNav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .topNav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    .topNav.responsive .dropdown {
-        float: none;
-    }
-    .topNav.responsive .dropdown_content {
-        position: relative;
-    }
-    .topNav.responsive .dropdown .dropbtn {
-        display: block;
-        width: 100%;
-        text-align: left;
-    }
-}
-
-
-
 
 .dropdown {
     float: left;
-    overflow: hidden;
+    padding-bottom: 15px;
+
+
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 17px;
     border: none;
-    outline: none;
     color: white;
-    ;
     padding: 16px 21px;
     background-color: inherit;
-    font-family: inherit;
     margin: 0;
+    text-decoration: none;
+
 }
 
 .topNav a:hover,
 .dropdown:hover .dropbtn {
-    background-color: rgba(186, 86, 86, 0.37);
+    background-color: rgba(186, 86, 86, 0.41);
+
+    color: black;
 }
 
 .dropdown_content {
@@ -130,6 +72,7 @@ body {
 
 .dropdown_content a:hover {
     background-color: rgba(0, 0, 0, 0.08);
+    color: white;
 }
 
 .dropdown:hover .dropdown_content {
@@ -139,25 +82,23 @@ body {
 .menubutton {
     width: 2em;
     height: 2em;
-    border: 0.3px solid #ba5656;
-
+    float: right;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     justify-content: space-around;
     align-items: center;
-
     position: relative;
     z-index: 10;
 }
 
 .bar {
-    width: 1.8em;
-    height: 0.4em;
+    width: 2em;
+    height: 0.3em;
     background-color: black;
     transition: transform .5s;
 }
-
 
 
 .kryds .bar1 {
@@ -166,17 +107,20 @@ body {
 
 .kryds .bar2 {
     opacity: 0;
+
 }
 
 .kryds .bar3 {
-    transform: rotate(-45deg) translate(8px, -7px)
+    transform: rotate(-45deg) translate(8px, -7px);
 }
 
 nav {
     position: absolute;
     background-color: #e39393;
-    width: 100%;
-    /*    transform: translateY(1);*/
+    width: 95%;
+
+
+    transform: translateY(1);
     transform-origin: top;
     transition: transform .5s;
 
@@ -187,8 +131,10 @@ nav {
     transform: translateY(-300px);
 }
 
+
 .dropdown button {
     color: white;
+
 }
 
 /*Slut på Menubar*/
@@ -213,9 +159,6 @@ nav {
     color: white;
 }
 
-div {
-    display: block;
-}
 
 #forside div {
     float: none;
@@ -372,14 +315,14 @@ iframe {
 
 }
 
-.privatfest img{
-     width: 70%;
+.privatfest img {
+    width: 70%;
     height: 70%;
     margin-left: 15vw;
 }
 
-.sexogsamfund img{
-     width: 70%;
+.sexogsamfund img {
+    width: 70%;
     height: 70%;
     margin-left: 12vw;
 }
