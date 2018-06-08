@@ -188,7 +188,7 @@ h3 {
 }
 
 p {
-    padding: 20px;
+    padding: 30px;
 }
 
 .colum_stilart {
@@ -329,7 +329,18 @@ iframe {
 }
 
 .forsidebillede img{
-      width: 70%;
-    height: 70%;
-    margin-left: 15vw;
+      width: 50%;
+    height: 100%;
+    margin-left: 23vw;
+}
+
+.kea_app{
+   float: right;
+
+}
+
+.joe img{
+    width: 50%;
+    height: 50%;
+    margin-left: 22vw;
 }
