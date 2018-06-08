@@ -18,6 +18,10 @@ body {
 
 }
 
+
+/* Start Menu baren*/
+
+/*
 .topNav {
     overflow: hidden;
     background-color: #e39393;
@@ -32,6 +36,7 @@ body {
     font-size: 15px;
     color: white;
 }
+*/
 
 .topNav a:hover {
     background-color: #ff9494;
@@ -83,12 +88,6 @@ body {
 
 
 
-.active {
-    color: white;
-    background-color: #ba5656;
-
-}
-
 .dropdown {
     float: left;
     overflow: hidden;
@@ -137,7 +136,94 @@ body {
     display: block;
 }
 
+.menubutton {
+    width: 2em;
+    height: 2em;
+    border: 0.3px solid #ba5656;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+
+    position: relative;
+    z-index: 10;
+}
+
+.bar {
+    width: 1.8em;
+    height: 0.4em;
+    background-color: black;
+    transition: transform .5s;
+}
+
+
+
+.kryds .bar1 {
+    transform: rotate(45deg) translate(8px, 7px);
+}
+
+.kryds .bar2 {
+    opacity: 0;
+}
+
+.kryds .bar3 {
+    transform: rotate(-45deg) translate(8px, -7px)
+}
+
+nav {
+    position: absolute;
+    background-color: #e39393;
+    width: 100%;
+    /*    transform: translateY(1);*/
+    transform-origin: top;
+    transition: transform .5s;
+
+    z-index: 5;
+}
+
+.hidden {
+    transform: translateY(-300px);
+}
+
+.dropdown button {
+    color: white;
+}
+
 /*Slut på Menubar*/
+
+#tema1 {
+    background-image: url(assets/apple-touch-icon.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    box-sizing: border-box;
+
+}
+
+@media only screen and (min-width: 376px) #forside .div {
+    float: left;
+    width: 50vw;
+    height: 50vw;
+    text-align: center;
+    color: white;
+}
+
+div {
+    display: block;
+}
+
+#forside div {
+    float: none;
+    width: 100vw;
+    height: 100vw;
+    text-align: center;
+    color: white;
+}
 
 /*Stilartsite*/
 
@@ -244,6 +330,7 @@ img {
     height: 100%;
     padding-bottom: 30px;
 
+
 }
 
 .video_projekt img {
@@ -283,4 +370,16 @@ iframe {
     height: 20%;
     margin-left: 20vw;
 
+}
+
+.privatfest img{
+     width: 70%;
+    height: 70%;
+    margin-left: 15vw;
+}
+
+.sexogsamfund img{
+     width: 70%;
+    height: 70%;
+    margin-left: 12vw;
 }
