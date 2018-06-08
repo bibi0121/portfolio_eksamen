@@ -24,7 +24,8 @@ body {
 a {
     cursor: pointer;
     text-decoration: none;
-    color: white;
+    color: #ffdada;
+
 }
 
 .dropdown {
@@ -325,4 +326,10 @@ iframe {
     width: 70%;
     height: 70%;
     margin-left: 12vw;
+}
+
+.forsidebillede img{
+      width: 70%;
+    height: 70%;
+    margin-left: 15vw;
 }
