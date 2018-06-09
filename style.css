@@ -84,7 +84,7 @@ a {
     width: 2em;
     height: 2em;
     float: right;
-    padding-top: 20px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -211,11 +211,10 @@ p {
 }
 
 .section_img2 img {
-    margin: 25px auto 10px auto;
+
     width: 30%;
     height: 20%;
-    margin-left: 60px;
-
+    margin-left: 25vw
 }
 
 
@@ -328,19 +327,43 @@ iframe {
     margin-left: 12vw;
 }
 
-.forsidebillede img{
-      width: 50%;
+.forsidebillede img {
+    width: 50%;
     height: 100%;
     margin-left: 23vw;
 }
 
-.kea_app{
-   float: right;
+.kea_app {
+    float: right;
 
 }
 
-.joe img{
+.joe img {
     width: 50%;
     height: 50%;
     margin-left: 22vw;
+}
+
+footer a {
+    color: #c44b4b;
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+footer details {
+    padding-top: 60px;
+    padding-left: 20px;
+
+}
+
+.mig_billede img {
+    border-radius: 20%;
+    padding-top: 40px;
+    ¨ border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.19);
+
+}
+
+.mig_billede {
+    margin-left: 25vw;
 }
