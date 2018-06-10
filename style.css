@@ -3,8 +3,8 @@ body {
     font-family: sans-serif;
     padding: 3px 20px 20px 20px;
     background-color: #ffebeb;
-    background-image: url(assets/Artboard%205.png);
-        background-size: cover;
+    background-image: url(assets/vand.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     font-family: monospace;
 
@@ -29,11 +29,14 @@ body {
 a {
     cursor: pointer;
     text-decoration: none;
-    color: #a55252;
+    color: #982a2a;
     font-weight: bolder;
     font-family: monospace;
 
+}
 
+a:hover {
+    color: white;
 }
 
 
@@ -45,7 +48,8 @@ a {
 
 
 }
-.forside{
+
+.forside {
     font-size: 17px;
     border: none;
     color: white;
@@ -57,17 +61,16 @@ a {
     padding-bottom: 15px;
 }
 
-.ekstra{
+.ekstra {
     font-size: 17px;
     border: none;
-    color: white;
     padding: 16px 21px;
-    background-color: inherit;
     margin: 0;
     text-decoration: none;
     float: left;
     padding-bottom: 15px;
 }
+
 
 
 
@@ -144,7 +147,7 @@ a {
 
 
 .kryds .bar1 {
-    transform: rotate(45deg) translate(8px, 7px);
+    transform: rotate(45deg) translate(8px, 4px);
 }
 
 .kryds .bar2 {
@@ -458,8 +461,14 @@ footer summary {
     text-decoration: underline;
     color: #000000;
     float: left;
+    font-size: 1.2em;
+    font-weight: bolder;
 
 
+}
+
+footer summary:hover{
+    color: white;
 }
 
 
