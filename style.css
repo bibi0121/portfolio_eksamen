@@ -3,9 +3,10 @@ body {
     font-family: sans-serif;
     padding: 3px 20px 20px 20px;
     background-color: #ffebeb;
-    background-image: url(assets/g%C3%A5.jpg);
-    background-size: cover;
+    background-image: url(assets/art) background-size: cover;
     background-repeat: no-repeat;
+    font-family: monospace;
+
 }
 
 #sectionwrapper {
@@ -20,14 +21,7 @@ body {
 
 }
 
-#sectionwrapper2 {
-    margin: 11px auto 0 auto;
-    max-width: 1080px;
-    box-shadow: 5px 10px rgba(0, 0, 0, 0.19);
-    padding: 30px;
-    background-color: rgba(255, 255, 255, 0.24);
 
-}
 
 /* Start Menu baren*/
 
@@ -36,7 +30,7 @@ a {
     text-decoration: none;
     color: #a55252;
     font-weight: bolder;
-
+    font-family: monospace;
 
 }
 
@@ -144,7 +138,7 @@ nav {
     cursor: pointer;
     z-index: 5;
     margin-top: 21px;
-    box-shadow: 5px 10px rgba(0, 0, 0, 0.38);
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.18);
 }
 
 .hidden {
@@ -154,12 +148,13 @@ nav {
 
 .dropdown button {
     color: white;
+    font-family: monospace;
 
 
 }
 
 
-#tilTop{
+#tilTop {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -175,6 +170,11 @@ nav {
     border-radius: 4px;
 }
 
+#tilTop:hover {
+    background-color: #965d5d;
+    color: black;
+}
+
 /*Slut på Menubar*/
 
 /*Stilartsite*/
@@ -187,7 +187,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1em;
+    font-size: 1.1em;
 
     font-weight: bold;
 }
@@ -223,8 +223,17 @@ h6 {
 
 }
 
+b {
+    font-family: monospace;
+}
+
 p {
     padding: 10px;
+    font-size: 1.1em;
+}
+
+li {
+    font-size: 1.1em;
 }
 
 .colum_stilart {
@@ -253,7 +262,9 @@ p {
     margin-left: 25vw
 }
 
-
+.img_splash {
+    padding: 90px;
+}
 
 
 
@@ -401,25 +412,28 @@ footer details {
 
 footer {
     color: black;
-
+    text-align: center;
     cursor: pointer;
+    font-family: monospace;
 
 }
 
 footer p {
     font-weight: normal;
     font-size: 0.9em;
+    text-align: center;
 }
 
 footer small {
-    color: white;
+    color: #a09999;
     font-size: 1em;
+
 }
 
 footer summary {
     text-decoration: underline;
     color: #000000;
-    float: right;
+    float: left;
 
 
 }
@@ -476,7 +490,7 @@ li {
 #links {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 50px;
+    justify-content: center;
 }
 
 .index:hover .text {

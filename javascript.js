@@ -12,7 +12,7 @@ function sidenVises() {
 function trykPaaMenubutton() {
     console.log("tryk på menubutton");
     $("nav").toggleClass("hidden");
-    //skift knappen frem og tilbage mellem kryds
+
     $(".menubutton").toggleClass("kryds");
 }
 
