@@ -3,8 +3,9 @@ body {
     font-family: sans-serif;
     padding: 3px 20px 20px 20px;
     background-color: #ffebeb;
-/*    background-image: url(assets/mig_g%C3%A5.jpg);*/
-   background-size:contain;
+    background-image: url(assets/g%C3%A5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #sectionwrapper {
@@ -19,6 +20,14 @@ body {
 
 }
 
+#sectionwrapper2 {
+    margin: 11px auto 0 auto;
+    max-width: 1080px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.24);
+
+}
 
 /* Start Menu baren*/
 
@@ -98,7 +107,7 @@ a {
 .bar {
     width: 2em;
     height: 0.3em;
-    background-color: black;
+    background-color: #000000;
     transition: transform .5s;
 }
 
@@ -127,11 +136,11 @@ nav {
     transition: transform .5s;
 
     z-index: 5;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .hidden {
-    transform: translateY(-300px);
+    transform: translateY(-500px);
 }
 
 
@@ -142,14 +151,13 @@ nav {
 
 /*Slut på Menubar*/
 
-
-
-
 /*Stilartsite*/
 
 h1 {
-    font-size: 2.5em;
+    font-size: 4em;
     text-align: center;
+    color: #fffcfc;
+
 }
 
 h2 {
@@ -161,14 +169,33 @@ h2 {
 h3 {
     text-align: center;
     font-weight: 600;
+
 }
 
-h4{
+h4 {
     text-align: center;
 
     font-weight: 100;
 
 }
+
+h5 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1em;
+    color: white;
+
+}
+
+h6 {
+    text-align: center;
+    font-size: 3em;
+    font-family: cursive;
+    display: block;
+
+
+}
+
 p {
     padding: 10px;
 }
@@ -327,7 +354,7 @@ iframe {
 }
 
 footer a {
-    color: #000000;
+    color: #ffffff;
     font-size: 2em;
     margin-left: 39px;
 }
@@ -339,22 +366,98 @@ footer details {
 }
 
 .mig_billede img {
-    border-radius: 50%;
-   height: 100%;
-width: 70vw;
+    border-radius: 10px;
 
-    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
 
 
 }
 
-.mig_billede {
-display: block;
-    align-content: center;
-}
 
-li{
+li {
 
     margin-left: 50px
 }
 
+.index {
+    /*
+    padding-top: 130px;
+    width: 170px;
+    height: 100%;
+    position: relative;
+
+*/
+    float: left;
+    width: 24.9%;
+    padding: 0 6px;
+
+
+}
+
+a img {
+    height: 100%;
+    width: 20vw;
+
+
+}
+
+
+
+.index .text {
+    visibility: hidden;
+
+    background-color: rgba(255, 255, 255, 0.63);
+    color: #000000;
+    text-align: center;
+
+    border-radius: 6px;
+    padding: 10px;
+    top: 220px;
+    left: 20px;
+    font-weight: bolder;
+    font-size: 1.5em;
+
+    position: absolute;
+    z-index: 1;
+    float: right;
+
+}
+
+.index:hover .text {
+    visibility: visible;
+}
+
+div.galleri {
+    border: 1px solid #ccc;
+}
+
+div.galleri:hover {
+    border: 1px solid #777;
+}
+
+div.galleri img {
+    width: 100%;
+    height: auto;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:700px) {
+    .index {
+        width: 49.9%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .index {
+        width: 100%;
+    }
+}
