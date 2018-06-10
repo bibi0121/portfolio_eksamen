@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: sans-serif;
     padding: 3px 20px 20px 20px;
-    background-color: #fae3e3;
+    background-color: #ffebeb;
 
 }
 
@@ -14,7 +14,7 @@ body {
     border: 0.5px solid rgba(0, 0, 0, 0.16);
     box-shadow: 5px 10px rgba(0, 0, 0, 0.19);
     padding: 30px;
-    background-color: #f2eded;
+    background-color: #ffffff;
 
 }
 
@@ -187,8 +187,14 @@ h3 {
     font-weight: 600;
 }
 
+h4{
+    text-align: center;
+
+    font-weight: 100;
+
+}
 p {
-    padding: 30px;
+    padding: 10px;
 }
 
 .colum_stilart {
@@ -345,9 +351,9 @@ iframe {
 }
 
 footer a {
-    color: #c44b4b;
+    color: #000000;
     font-size: 2em;
-    margin-left: 20px;
+    margin-left: 39px;
 }
 
 footer details {
@@ -357,13 +363,20 @@ footer details {
 }
 
 .mig_billede img {
-    border-radius: 20%;
+    border-radius: 30%;
+   height: 100%;
+
+
     padding-top: 40px;
-    ¨ border: 1px solid rgba(0, 0, 0, 0.16);
-    box-shadow: 5px 10px rgba(0, 0, 0, 0.19);
 
 }
 
 .mig_billede {
-    margin-left: 25vw;
+    margin-left:
 }
+
+li{
+
+    margin-left: 50px
+}
+
