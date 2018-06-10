@@ -440,21 +440,17 @@ footer details {
 
 footer {
     color: black;
-    text-align: center;
     cursor: pointer;
     font-family: monospace;
 
 }
 
-footer site {
-    font-weight: normal;
-    font-size: 0.9em;
-    text-align: center;
-}
 
 footer small {
-    color: #a09999;
+    color: #ffffff;
     font-size: 1em;
+    font-weight: bolder;
+
 
 }
 
@@ -470,6 +466,7 @@ footer summary {
 
 .kontakt {
     background-color: rgba(255, 255, 255, 0.54);
+    text-align: center;
 }
 
 .sociale_medier {
