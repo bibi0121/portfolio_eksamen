@@ -34,9 +34,14 @@ body {
 a {
     cursor: pointer;
     text-decoration: none;
-    color: #ffdada;
+    color: #a55252;
+    font-weight: bolder;
+
 
 }
+
+
+
 
 .dropdown {
     float: left;
@@ -107,12 +112,14 @@ a {
 }
 
 .bar {
-
+    cursor: pointer;
     width: 2.1em;
-    height: 0.2em;
+    height: 0.3em;
     background-color: #ffffff;
     transition: transform .5s;
 }
+
+
 
 
 .kryds .bar1 {
@@ -134,10 +141,10 @@ nav {
     width: 95%;
     transform-origin: top;
     transition: transform .5s;
-
+    cursor: pointer;
     z-index: 5;
-    margin-top: 20px;
-    box-shadow: 5px 10px rgba(0, 0, 0, 0.12);
+    margin-top: 21px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.38);
 }
 
 .hidden {
@@ -148,6 +155,24 @@ nav {
 .dropdown button {
     color: white;
 
+
+}
+
+
+#tilTop{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    background-color: #e39393;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
 }
 
 /*Slut på Menubar*/
@@ -358,12 +383,18 @@ iframe {
 footer a {
 
     font-size: 1.8em;
+    color: black;
 
+
+}
+
+footer a:hover {
+    color: #c47c7c;
 }
 
 footer details {
     padding-top: 10px;
-    padding-left: 20px;
+
     font-weight: bolder;
     font-size: 1.2em
 }
@@ -371,9 +402,42 @@ footer details {
 footer {
     color: black;
 
-    max-width: 1080px;
+    cursor: pointer;
+
+}
+
+footer p {
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+footer small {
+    color: white;
+    font-size: 1em;
+}
+
+footer summary {
+    text-decoration: underline;
+    color: #000000;
+    float: right;
+
+
+}
+
+footer summary:hover {
+    color: #fff0f0;
+
+}
+
+.kontakt {
+    background-color: rgba(255, 255, 255, 0.54);
+}
+
+.sociale_medier {
     text-align: center;
 }
+
+
 
 
 
